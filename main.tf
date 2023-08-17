@@ -203,6 +203,6 @@ resource "null_resource" "configure-cat-app" {
 }
 module "backupstorage" {
   source = "app.terraform.io/djoo-hashicorp/azure-backup/azurerm"
-  version = "1.0.2"
+  version = "1.0.0"
   resource_group_name = "${var.prefix}-private"
 }
